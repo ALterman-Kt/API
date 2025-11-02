@@ -3,22 +3,26 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0 ;
-    background: radial-gradient(circle,rgba(237, 111, 233, 1) 0%, rgba(138, 235, 235, 1) 100%);
-   
+    margin: 0; /*убрали отступы*/
+    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
 }
-.magic-button {
-    padding: 40px 40px;
-    font-size: 35px;
-    border-radius: 70px;
+.icon-button {
+    padding: 20px 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: black;
     cursor: pointer;
-    background: radial-gradient(circle,rgba(150, 5, 146, 1) 0%, rgba(11, 163, 163, 1) 100%);
-    color: azure;
-    box-shadow: 0 5px 15px rgba(150, 5, 146, 1);
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(2, 0, 36, 1);
 }
-.magic-button:hover {
-    transform: translateY(-2px);
+.icon-button:hover {
+    transform: translateY(-5px);
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
 }
-.magic-button:active {
-    transform: translateY(1px); /*опустила кнопку*/
+.icon-button:active {
+    transform: translateY(2px);
 }
